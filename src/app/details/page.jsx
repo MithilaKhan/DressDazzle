@@ -5,7 +5,7 @@ import YouMightLike from './YouMightLike/YouMightLike';
 
 const details = () => {
     return (
-        <div className='font-[Poppins] pb-20 mt-8'>
+        <div className='font-[Poppins] pb-10  p-10'>
             <div className='grid grid-cols-2'>
                 <div>
                     <ImageSlider />

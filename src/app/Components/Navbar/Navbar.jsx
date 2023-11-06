@@ -8,7 +8,7 @@ import { IoClose, IoMenu } from 'react-icons/io5';
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="fixed bg-transparent  w-full top-0 z-20 bg-blue backdrop-filter backdrop-blur-2xl  border-b border-gray-200">
+    <nav className=" fixed bg-transparent  w-full top-0 z-20 bg-blue backdrop-filter backdrop-blur-2xl  border-b border-gray-200">
       <div className="flex items-center font-medium justify-around">
         <div className=" p-2 md:w-auto w-full flex justify-between">
           <h1 className="font-[Poppins] font-bold text-4xl">DressDazzle</h1>
@@ -18,7 +18,7 @@ const Navbar = () => {
         </div>
         <ul className="md:flex text-black font-semibold hidden uppercase items-center gap-8 font-[Poppins]">
           <li>
-            <Link href="/home" className="py-7 px-3 inline-block">
+            <Link href="/" className="py-7 px-3 inline-block">
               Home
             </Link>
           </li>

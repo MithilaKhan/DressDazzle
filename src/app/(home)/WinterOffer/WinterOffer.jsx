@@ -5,19 +5,19 @@ const WinterOffer = () => {
     return (
         <div>
             <h1 className='text-3xl font-semibold uppercase pb-3'>Happening Now</h1>
-            <div className='relative'>
+            <div className=''>
             <Image
-      src="https://img.freepik.com/free-psd/sales-banner-template-with-image_23-2148149657.jpg?w=1380&t=st=1699045018~exp=1699045618~hmac=decd1cace08ca140f8e7eacd03fd0da60993e84b494f8806bd3da970cbc29c3e"
+      src="https://images.unsplash.com/photo-1572584642822-6f8de0243c93?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       alt="image"
       width={800} // Set an appropriate width value
       height={400} // Set an appropriate height value
-      sizes="100vw"
-      style={{ width: '100%', height: '600px' }} 
-      className='rounded-xl'
+    //   sizes="100vw"
+      style={{ width: '100%', height: '500px' }} 
+      className=''
     />
-    <div className='absolute left-36 ms-60 bottom-8 pb-24 w-full'>
+    {/* <div className='absolute left-36 ms-60 bottom-8 pb-24 w-full'>
     <button className="btn btn-active btn-neutral  h-14 w-1/6 text-xl ">Shop Now</button>
-    </div>
+    </div> */}
             </div>
            
         </div>

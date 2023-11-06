@@ -5,7 +5,7 @@ import React from 'react';
 const SingleProduct = ({band}) => {
     return (
         <div>
-            <div className="card  w-96  mb-10 ">
+            <div className="card  w-80  mb-10 ">
  <Image
       src={band.img1}
       alt="image"

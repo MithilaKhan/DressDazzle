@@ -8,8 +8,8 @@ import WinterOffer from "./WinterOffer/WinterOffer";
 
 const HomePage =()=> {
   return (
-    <main className="max-w-[1580px] mx-auto font-[Poppins] pb-20">
-     <Banner/>
+    <main className="max-w-[1580px] mx-auto font-[Poppins] p-10">
+     <Banner/> 
      <Trending/>
 <WinterOffer/>
 <Featured/>

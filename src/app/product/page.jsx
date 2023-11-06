@@ -21,8 +21,8 @@ const ProductPage = () => {
         <div>
             <div className="drawer lg:drawer-open">
   <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
-  <div className="drawer-content flex flex-col mt-10 ms-20">
-    <div className='grid lg:grid-cols-3'>
+  <div className="drawer-content flex flex-col ms-10 m-10">
+    <div className='grid lg:grid-cols-3 gap-1'>
     {products.map((band) => <SingleProduct key={band.id} band={band}/>)}
     </div>
     {/* Page content here */}
