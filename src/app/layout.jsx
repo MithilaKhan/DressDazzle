@@ -14,7 +14,7 @@ const RootLayout =({ children }) => {
   return (
     <html lang="en" data-theme="light">
       <body className={inter.className}>
-        <div className='font-[Poppins]'>
+        <div className='font-[Poppins] max-w-[1580px] mx-auto '>
         <Navbar />
           <div className="pt-[70px] min-h-[1000px]"> {children}</div>
           <Footer/>
