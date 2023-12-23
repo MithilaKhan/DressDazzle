@@ -20,7 +20,6 @@ const SingleProduct = ({band}) => {
     <h2 className="card-title pb-2 text-xl text-orange-700">{band.sellerType}</h2>
     <p className='pb-1 text-xl font-semibold'>{band.dressTitle} </p>
     <p className='pb-1 text-xl'>{band.dressCategory} </p>
-    <p className='pb-1 text-xl'>Color:{band.color} </p>
     <p className='pb-1 text-xl text-orange-700'> ${band.price}</p> 
     </Link>
    

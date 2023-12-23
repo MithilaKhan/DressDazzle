@@ -7,6 +7,7 @@ import Price from './Price';
 import Color from './Color';
 import Sport from './Sport';
 import Band from './Band';
+import Image from 'next/image';
 const ProductPage = () => {
   const [showDetails, setShowDetails] = useState(true);
   const [showGender, setShowGender] = useState(true);
@@ -18,7 +19,91 @@ const ProductPage = () => {
     setShowGender(!showGender);
   };
     return (
-        <div>
+        <div className='pt-0 '>
+          <div>
+          <Image
+      src="https://images.unsplash.com/photo-1601618752436-7b60b7818699?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      alt="image"
+      width={800} // Set an appropriate width value
+      height={600} // Set an appropriate height value
+      sizes="100vw"
+      style={{ width: '100%', height: '600px' }} 
+      
+    />
+          </div>
+          <div className='grid lg:grid-cols-5 gap-3 sm:grid-cols-2 m-6'>
+
+            <div className='relative'>
+            <Image
+      src="https://images.unsplash.com/photo-1500840216050-6ffa99d75160?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D"
+      alt="image"
+      width={550} // Set an appropriate width value
+      height={270} // Set an appropriate height value
+      // sizes="100vw"
+      style={{ width: '550', height: '270px' }} 
+      className='rounded-lg brightness-50'
+    />
+    <div className=' absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white '>
+      <p className='font-xl text-4xl '>Accessories</p></div>
+            </div>
+
+            <div className='relative'>
+            <Image
+      src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D"
+      alt="image"
+      width={550} // Set an appropriate width value
+      height={270} // Set an appropriate height value
+      // sizes="100vw"
+      style={{ width: '550', height: '270px' }} 
+      className='rounded-lg brightness-50'
+    />
+    <div className=' absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white '>
+      <p className='font-xl text-4xl '>Bags</p></div>
+            </div>
+
+            <div className='relative'>
+            <Image
+      src="https://images.unsplash.com/photo-1544280897-ad0b9a599668?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fGV5ZSUyMGdsYXNzZXN8ZW58MHx8MHx8fDA%3D"
+      alt="image"
+      width={550} // Set an appropriate width value
+      height={270} // Set an appropriate height value
+      // sizes="100vw"
+      style={{ width: '550', height: '270px' }} 
+      className='rounded-lg brightness-50'
+    />
+    <div className=' absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white '>
+      <p className='font-xl text-4xl '>Glasses</p></div>
+            </div>
+
+            <div className='relative'>
+            <Image
+      src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHNob2VzfGVufDB8fDB8fHww"
+      alt="image"
+      width={550} // Set an appropriate width value
+      height={270} // Set an appropriate height value
+      // sizes="100vw"
+      style={{ width: '550', height: '270px' }} 
+      className='rounded-lg brightness-50'
+    />
+    <div className=' absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white '>
+      <p className='font-xl text-4xl '>Shoes</p></div>
+            </div>
+
+            <div className='relative'>
+            <Image
+      src="https://images.unsplash.com/photo-1577909238318-66c95a296b57?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D"
+      alt="image"
+      width={550} // Set an appropriate width value
+      height={270} // Set an appropriate height value
+      // sizes="100vw"
+      style={{ width: '550', height: '270px' }} 
+      className='rounded-lg brightness-50'
+    />
+    <div className=' absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white '>
+      <p className='font-xl text-4xl '>Outerwear</p></div>
+            </div>
+         
+          </div>
             <div className="drawer lg:drawer-open">
   <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
   <div className="drawer-content flex flex-col ms-10 m-10">

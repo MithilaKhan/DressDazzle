@@ -1,0 +1,5 @@
+.images{
+    @media (max-width: 640px) {        
+          margin-right: 100px;
+      }
+}

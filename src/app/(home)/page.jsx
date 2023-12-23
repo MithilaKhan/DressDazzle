@@ -10,7 +10,7 @@ const HomePage =()=> {
   return (
     <main className="max-w-[1580px] mx-auto font-[Poppins] p-10">
      <Banner/> 
-     <Trending/>
+     <Trending/>  
 <WinterOffer/>
 <Featured/>
 <HolidayFrame/>

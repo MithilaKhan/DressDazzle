@@ -4,7 +4,7 @@ import React from 'react';
 const WinterOffer = () => {
     return (
         <div>
-            <h1 className='text-3xl font-semibold uppercase pb-3'>Happening Now</h1>
+            <h1 className='lg:text-3xl text-xl font-semibold uppercase pb-3'>Happening Now</h1>
             <div className=''>
             <Image
       src="https://images.unsplash.com/photo-1572584642822-6f8de0243c93?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
